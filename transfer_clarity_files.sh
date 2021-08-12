@@ -23,10 +23,10 @@ sbatch "$0"
 /bin/echo "Beginning clarity file transfer at $(date)."
 
 # Will email log file when completed to this list of people
-MAIL_RECIPIENTS="neil.kindlon@jax.org,james.qin@jax.org,mitch.kostich@jax.org"
+MAIL_RECIPIENTS="neil.kindlon@jax.org,james.qin@jax.org"
 
 # Setup the basic directories if needed
-BASE_WORK_DIR="/projects/researchit/clarity"
+BASE_WORK_DIR="/projects/researchit/clarity_RIT_transfer"
 
 LOG_DIR="$BASE_WORK_DIR/logs"
 
