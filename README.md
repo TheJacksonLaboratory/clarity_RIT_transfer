@@ -28,3 +28,6 @@ We compute the md5 checksum of the csv file and compare it to the one in the md5
 
 ### Logging and email
 Log files is kept in the logs directory and emailed to the specified users (currently Neil Kindlon and James Qin).
+
+### Job recurrence
+The job resubmits itself with an sbatch call to SLURM and is currently set to run once a day. New files are actually expected to only appear once a week.
