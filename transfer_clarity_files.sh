@@ -104,7 +104,7 @@ then
     # Empty the slurp directory before exiting.
     rm -f *
     mail -s "No new clarity file transferred to Research IT" "$MAIL_RECIPIENTS" < "$LOG_FILE"
-    exit 35
+    exit 0
 else
     /bin/echo "$newest_csv has not been previously processed". | /bin/tee -a "$LOG_FILE"
 fi
